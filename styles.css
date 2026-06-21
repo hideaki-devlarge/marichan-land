@@ -83,11 +83,6 @@ textarea {
   height: 42px;
   object-fit: contain;
   object-position: center;
-  padding: 2px;
-  background: rgba(255, 255, 255, 0.72);
-  border: 2px solid rgba(255, 255, 255, 0.92);
-  border-radius: 8px;
-  box-shadow: 0 6px 14px rgba(79, 54, 135, 0.14);
 }
 
 .site-nav {
