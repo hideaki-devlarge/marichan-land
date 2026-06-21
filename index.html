@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="まりちゃんランドの公式デモサイト。行き方、登場人物、使える魔法、入場登録を楽しめます。"
+    >
+    <title>まりちゃんランド</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" data-route="home" aria-label="まりちゃんランド ホーム">
+        <span class="brand-mark" aria-hidden="true">M</span>
+        <span>まりちゃんランド</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="主要ページ">
+        <a href="#access" data-route="access">行き方</a>
+        <a href="#characters" data-route="characters">登場人物</a>
+        <a href="#magic" data-route="magic">使える魔法</a>
+        <a href="#entry" data-route="entry">入場はこちら</a>
+        <a href="#diary" data-route="diary">日記</a>
+        <a href="#album" data-route="album">アルバム</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="page page-home is-active" data-page="home">
+        <div class="hero">
+          <div class="hero-content">
+            <p class="eyebrow">Welcome to</p>
+            <h1>まりちゃんランド</h1>
+            <p class="hero-copy">
+              ひかりの門をくぐると、今日だけの魔法がはじまる。
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#entry" data-route="entry">入場する</a>
+              <a class="button button-secondary" href="#magic" data-route="magic">魔法を見る</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-band intro-band">
+          <div class="section-inner">
+            <div class="section-heading">
+              <p class="eyebrow">Today's Land</p>
+              <h2>今日のまりちゃんランド</h2>
+            </div>
+            <div class="feature-grid">
+              <article class="feature-card">
+                <span class="feature-icon">星</span>
+                <h3>星あかり広場</h3>
+                <p>夜になると床の星が少しずつ光り、願いごとを照らします。</p>
+              </article>
+              <article class="feature-card">
+                <span class="feature-icon">音</span>
+                <h3>リズムの小道</h3>
+                <p>歩くたびに小さな音が鳴る、元気を集めるための道です。</p>
+              </article>
+              <article class="feature-card">
+                <span class="feature-icon">花</span>
+                <h3>にこにこ花壇</h3>
+                <p>笑うと花びらがふわっと開く、まりちゃんランドの入口です。</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="access" class="page" data-page="access">
+        <div class="page-title">
+          <p class="eyebrow">Access</p>
+          <h1>まりちゃんランドへの行き方</h1>
+          <p>写真が届くまでは、デモの道案内で開園しています。</p>
+        </div>
+        <div class="section-inner two-column">
+          <div class="map-panel" aria-label="まりちゃんランドまでのデモ地図">
+            <div class="map-route">
+              <span class="map-point">虹の駅</span>
+              <span class="map-line"></span>
+              <span class="map-point">星の橋</span>
+              <span class="map-line"></span>
+              <span class="map-point main-point">入口ゲート</span>
+            </div>
+          </div>
+          <div class="steps">
+            <article>
+              <span class="step-number">1</span>
+              <div>
+                <h2>虹の駅で降りる</h2>
+                <p>空が明るく見える出口から、まっすぐ進みます。</p>
+              </div>
+            </article>
+            <article>
+              <span class="step-number">2</span>
+              <div>
+                <h2>星の橋を渡る</h2>
+                <p>橋の中央で小さく手を振ると、入口の旗が見えます。</p>
+              </div>
+            </article>
+            <article>
+              <span class="step-number">3</span>
+              <div>
+                <h2>ひかりの門へ</h2>
+                <p>門の前で好きな魔法をひとつ選ぶと入場できます。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="characters" class="page" data-page="characters">
+        <div class="page-title">
+          <p class="eyebrow">Characters</p>
+          <h1>登場人物</h1>
+          <p>今はデモの紹介です。あとで送ってもらう写真に合わせて差し替えます。</p>
+        </div>
+        <div class="section-inner character-grid">
+          <article class="character-card">
+            <div class="character-portrait portrait-sun" aria-hidden="true">ま</div>
+            <h2>まりちゃん</h2>
+            <p>まりちゃんランドの主役。楽しいことを見つける力がとても強い。</p>
+            <span>得意: にこにこ魔法</span>
+          </article>
+          <article class="character-card">
+            <div class="character-portrait portrait-sky" aria-hidden="true">案</div>
+            <h2>案内係ルミ</h2>
+            <p>はじめて来た人を入口まで連れていく、やさしい案内係。</p>
+            <span>得意: 道しるべ魔法</span>
+          </article>
+          <article class="character-card">
+            <div class="character-portrait portrait-green" aria-hidden="true">魔</div>
+            <h2>まほう研究員ミカ</h2>
+            <p>新しい魔法を試して、ランド中に小さな驚きを増やしている。</p>
+            <span>得意: ひらめき魔法</span>
+          </article>
+          <article class="character-card">
+            <div class="character-portrait portrait-rose" aria-hidden="true">守</div>
+            <h2>ゲートの守り手</h2>
+            <p>入口ゲートを見守り、入場証に今日の光をともします。</p>
+            <span>得意: あんしん魔法</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="magic" class="page" data-page="magic">
+        <div class="page-title">
+          <p class="eyebrow">Magic</p>
+          <h1>使える魔法</h1>
+          <p>入場登録で、今日いっしょに使いたい魔法を選べます。</p>
+        </div>
+        <div class="section-inner magic-grid" id="magic-list"></div>
+      </section>
+
+      <section id="entry" class="page" data-page="entry">
+        <div class="page-title">
+          <p class="eyebrow">Ticket</p>
+          <h1>入場はこちら</h1>
+          <p>名前と好きな魔法を入れると、まりちゃんランドの入場証が出ます。</p>
+        </div>
+        <div class="section-inner entry-layout">
+          <form class="entry-form" id="entry-form">
+            <label>
+              <span>おなまえ</span>
+              <input name="name" type="text" autocomplete="name" required maxlength="30" placeholder="まりちゃん">
+            </label>
+            <label>
+              <span>好きな魔法</span>
+              <select name="magic" id="magic-select" required></select>
+            </label>
+            <label>
+              <span>来園の目的</span>
+              <select name="purpose" required>
+                <option value="たのしく遊ぶ">たのしく遊ぶ</option>
+                <option value="元気を集める">元気を集める</option>
+                <option value="魔法を試す">魔法を試す</option>
+                <option value="ひみつを探す">ひみつを探す</option>
+              </select>
+            </label>
+            <label>
+              <span>メッセージ</span>
+              <textarea name="message" maxlength="120" rows="4" placeholder="今日やりたいことを書いてね"></textarea>
+            </label>
+            <button class="button button-primary" type="submit">入場証を作る</button>
+          </form>
+
+          <aside class="ticket" id="ticket" aria-live="polite">
+            <p class="ticket-label">MARICHAN LAND</p>
+            <h2>入場証</h2>
+            <p class="ticket-name">まだ発行されていません</p>
+            <dl>
+              <div>
+                <dt>魔法</dt>
+                <dd id="ticket-magic">---</dd>
+              </div>
+              <div>
+                <dt>目的</dt>
+                <dd id="ticket-purpose">---</dd>
+              </div>
+              <div>
+                <dt>番号</dt>
+                <dd id="ticket-id">---</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section id="diary" class="page" data-page="diary">
+        <div class="page-title">
+          <p class="eyebrow">Diary</p>
+          <h1>まりちゃんランド日記</h1>
+          <p>開園準備のメモを残していきます。</p>
+        </div>
+        <div class="section-inner diary-list">
+          <article>
+            <time datetime="2026-06-21">2026.06.21</time>
+            <h2>まりちゃんランド、準備開始</h2>
+            <p>入口ゲート、魔法リスト、入場証のデモができました。</p>
+          </article>
+          <article>
+            <time datetime="2026-06-22">2026.06.22</time>
+            <h2>写真ページの準備</h2>
+            <p>登場人物と行き方の写真をあとから入れられるようにします。</p>
+          </article>
+          <article>
+            <time datetime="2026-06-23">2026.06.23</time>
+            <h2>公開リハーサル</h2>
+            <p>GitHub Pages で公開できるように、Actions の設定を用意します。</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="album" class="page" data-page="album">
+        <div class="page-title">
+          <p class="eyebrow">Album</p>
+          <h1>アルバム</h1>
+          <p>本番の写真が入るまで、色と光のデモアルバムを置いています。</p>
+        </div>
+        <div class="section-inner album-grid">
+          <figure class="album-item album-gate">
+            <figcaption>入口ゲート</figcaption>
+          </figure>
+          <figure class="album-item album-path">
+            <figcaption>光の小道</figcaption>
+          </figure>
+          <figure class="album-item album-stage">
+            <figcaption>魔法ステージ</figcaption>
+          </figure>
+          <figure class="album-item album-star">
+            <figcaption>星あかり広場</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="admin" class="page" data-page="admin">
+        <div class="page-title">
+          <p class="eyebrow">Admin</p>
+          <h1>管理ページ</h1>
+          <p>このブラウザで作った入場証を確認できます。</p>
+        </div>
+        <div class="section-inner admin-panel">
+          <form class="admin-login" id="admin-login">
+            <label>
+              <span>合言葉</span>
+              <input name="password" type="password" autocomplete="current-password" placeholder="合言葉">
+            </label>
+            <button class="button button-secondary" type="submit">見る</button>
+          </form>
+          <div class="admin-content" id="admin-content" hidden>
+            <div class="admin-toolbar">
+              <h2>入場者リスト</h2>
+              <button class="button button-danger" type="button" id="clear-entries">すべて消す</button>
+            </div>
+            <div class="entry-table-wrap">
+              <table class="entry-table">
+                <thead>
+                  <tr>
+                    <th>番号</th>
+                    <th>名前</th>
+                    <th>魔法</th>
+                    <th>目的</th>
+                    <th>日時</th>
+                  </tr>
+                </thead>
+                <tbody id="entry-table-body"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Marichan Land</p>
+      <a href="#admin" data-route="admin">管理ページ</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
