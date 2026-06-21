@@ -564,7 +564,7 @@ h3 {
   width: 100%;
   max-width: 190px;
   margin: 0 0 18px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: top center;
   background: #ffffff;
   border: 4px solid #ffffff;
