@@ -282,9 +282,21 @@ h3 {
 }
 
 .button-primary {
-  color: #573100;
-  background: linear-gradient(180deg, #ffe98f, var(--sun));
+  color: #ffffff;
+  background: linear-gradient(
+    90deg,
+    #ff5f93,
+    #ffb347,
+    #ffd85c,
+    #7fd8c2,
+    #7ec8f7,
+    #b9a3ff,
+    #ff5f93
+  );
+  background-size: 320% 100%;
   border-color: #ffffff;
+  text-shadow: 0 2px 8px rgba(74, 49, 64, 0.32);
+  animation: rainbow-shift 4.5s linear infinite;
 }
 
 .button-secondary {
@@ -297,6 +309,16 @@ h3 {
   color: #ffffff;
   background: #e24e72;
   border-color: #ffffff;
+}
+
+@keyframes rainbow-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 320% 50%;
+  }
 }
 
 .section-band {
@@ -1097,5 +1119,12 @@ textarea {
 
   .map-point {
     min-width: 112px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .button-primary {
+    animation: none;
+    background-position: 50% 50%;
   }
 }
