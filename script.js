@@ -131,7 +131,7 @@ function renderEntries() {
   if (!entries.length) {
     tableBody.innerHTML = `
       <tr>
-        <td colspan="5">まだ入場証はありません。</td>
+        <td colspan="5">まだミラーイン証はありません。</td>
       </tr>
     `;
     return;
