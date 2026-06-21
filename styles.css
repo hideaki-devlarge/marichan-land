@@ -915,6 +915,28 @@ textarea {
   box-shadow: var(--shadow);
 }
 
+.album-comic {
+  display: grid;
+  grid-column: 1 / -1;
+  align-items: stretch;
+  min-height: 0;
+  background: #ffffff;
+}
+
+.album-comic img {
+  display: block;
+  width: 100%;
+  max-height: 920px;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+.album-comic figcaption {
+  position: static;
+  color: var(--rose);
+  background: #fff0f7;
+}
+
 .album-gate {
   background:
     linear-gradient(135deg, rgba(255, 255, 255, 0.26), transparent),
