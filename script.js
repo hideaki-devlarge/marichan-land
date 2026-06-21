@@ -3,7 +3,7 @@ const magicItems = [
     name: "にこにこ魔法",
     symbol: "笑",
     color: "rose",
-    description: "まわりの空気をふわっと明るくする、まりちゃんランドの基本魔法。",
+    description: "まわりの空気をふわっと明るくする、まりちゃん国の基本魔法。",
     effect: "笑顔 +30"
   },
   {

@@ -79,13 +79,15 @@ textarea {
 
 .brand-logo {
   display: block;
-  width: clamp(150px, 26vw, 260px);
-  height: 48px;
-  object-fit: cover;
+  width: clamp(132px, 24vw, 220px);
+  height: 42px;
+  object-fit: contain;
   object-position: center;
-  border: 3px solid rgba(255, 255, 255, 0.92);
+  padding: 2px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 2px solid rgba(255, 255, 255, 0.92);
   border-radius: 8px;
-  box-shadow: 0 8px 18px rgba(79, 54, 135, 0.18);
+  box-shadow: 0 6px 14px rgba(79, 54, 135, 0.14);
 }
 
 .site-nav {
@@ -919,8 +921,8 @@ textarea {
   }
 
   .brand-logo {
-    width: min(48vw, 210px);
-    height: 40px;
+    width: min(46vw, 178px);
+    height: 34px;
   }
 
   .site-nav {
