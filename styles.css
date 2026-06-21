@@ -430,6 +430,25 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.photo-map-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background: #ffffff;
+}
+
+.access-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 560px;
+  object-fit: contain;
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 10px 22px rgba(74, 49, 64, 0.16);
+}
+
 .map-route {
   display: grid;
   align-items: center;
